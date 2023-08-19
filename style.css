@@ -1,0 +1,69 @@
+#nav1{
+    position: sticky;   
+    width: 100%;
+    height: 100px;
+    background-color: rgb(166, 166, 211);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    color: black;
+    margin-inline: 20px;
+    text-shadow: 4px 4px 10px black;
+    height: 20px;
+    padding: 20px;
+    border-radius: 0%;
+    border: none;
+
+}
+
+#nav1>a:hover{
+    color: blue;
+    background-color: rgb(179, 179, 209);
+    }
+    #nav1>button:active{
+        color: gray;
+    }
+#hd1{
+    text-shadow: 4px 4px 10px red;
+}
+
+#tableMain{
+   border-style: dashed;
+   border-radius: 5px;
+   border-width: 1px;
+   margin: 10px;
+   padding: 20px;
+}
+#tableMain>h1{
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+.id1{
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(22, 22, 199);
+}
+#form-1{
+    background-color: rgb(116, 152, 250);
+    width: 100%;
+    line-height: 2;
+    font-style: oblique;
+    border-radius: 10px;
+    border-style:solid;
+    margin: 20px;
+}
+#form-1>h1{
+    text-shadow: 7px 8px 10px rgb(240, 235, 235);
+    margin-left: 100px;
+
+}
+#form-1>label{
+    margin-left: 20px;
+}
+
+#form-1>button{
+    margin-left: 90px;
+}
